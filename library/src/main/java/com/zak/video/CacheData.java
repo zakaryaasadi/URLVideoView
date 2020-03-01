@@ -1,4 +1,4 @@
-package com.zak;
+package com.zak.video;
 
 import android.content.Context;
 

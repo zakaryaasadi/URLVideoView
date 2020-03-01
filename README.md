@@ -32,7 +32,7 @@ dependencies {
 - Xml
 
  ```xml
-    <com.zak.URLVideoView
+    <com.zak.video.URLVideoView
         android:id="@+id/video"
         android:layout_width="match_parent"
         android:layout_height="300dp"

@@ -4,11 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.zak.OnCachedListener;
-import com.zak.OnCompletionListener;
-import com.zak.OnErrorListener;
-import com.zak.URLVideoView;
-import com.zak.VideoCore;
+import com.zak.video.OnCachedListener;
+import com.zak.video.OnCompletionListener;
+import com.zak.video.OnErrorListener;
+import com.zak.video.URLVideoView;
 
 public class MainActivity extends AppCompatActivity {
 

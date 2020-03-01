@@ -1,4 +1,4 @@
-package com.zak;
+package com.zak.video;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -40,8 +40,8 @@ public class VideoCore implements OnCompletionListener, OnPreparedListener, OnEr
     private String mUrl;
     private String mFileName;
     private OnCachedListener mCachedListener;
-    private com.zak.OnCompletionListener mCompletion;
-    private com.zak.OnErrorListener mError;
+    private com.zak.video.OnCompletionListener mCompletion;
+    private com.zak.video.OnErrorListener mError;
 
     public VideoCore(Context context){
         mContext = context;
@@ -114,12 +114,12 @@ public class VideoCore implements OnCompletionListener, OnPreparedListener, OnEr
         return this;
     }
 
-    public VideoCore setOnCompletionListener(com.zak.OnCompletionListener onCompletion) {
+    public VideoCore setOnCompletionListener(com.zak.video.OnCompletionListener onCompletion) {
         mCompletion = onCompletion;
         return this;
     }
 
-    public VideoCore setOnErrorListener(com.zak.OnErrorListener onError) {
+    public VideoCore setOnErrorListener(com.zak.video.OnErrorListener onError) {
         mError = onError;
         return this;
     }
