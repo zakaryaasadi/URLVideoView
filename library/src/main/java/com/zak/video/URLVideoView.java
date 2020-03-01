@@ -31,7 +31,6 @@ import com.github.ybq.android.spinkit.style.RotatingPlane;
 import com.github.ybq.android.spinkit.style.ThreeBounce;
 import com.github.ybq.android.spinkit.style.WanderingCubes;
 import com.github.ybq.android.spinkit.style.Wave;
-import com.zak.R;
 
 public class URLVideoView extends RelativeLayout {
     private VideoView mVideoView;

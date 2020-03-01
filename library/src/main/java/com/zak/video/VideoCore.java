@@ -17,7 +17,6 @@ import com.devbrackets.android.exomedia.ui.widget.VideoView;
 import com.github.ybq.android.spinkit.SpinKitView;
 import com.squareup.picasso.Picasso;
 import com.squareup.picasso.Target;
-import com.zak.R;
 
 import java.io.File;
 import java.security.MessageDigest;
