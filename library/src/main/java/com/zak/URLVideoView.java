@@ -55,8 +55,8 @@ public class URLVideoView extends RelativeLayout {
         TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.URLVideo);
 
         mHeightProgress = a.getDimensionPixelSize(R.styleable.URLVideo_progressbar_height, 2);
-        mStyle = Style.values()[a.getInt(R.styleable.URLVideo_Spinner_Style, 9)];
-        mColor = a.getColor(R.styleable.URLVideo_Spinner_Color, R.color.colorAccent);
+        mStyle = Style.values()[a.getInt(R.styleable.URLVideo_SpinnerStyle, 9)];
+        mColor = a.getColor(R.styleable.URLVideo_SpinnerColor, R.color.colorAccent);
 
         createVideoView();
         createProgressbar();

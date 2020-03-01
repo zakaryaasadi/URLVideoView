@@ -10,8 +10,8 @@
         android:id="@+id/video"
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        app:Spinner_Style="ThreeBounce"
-        app:Spinner_Color="@color/colorAccent"
+        app:SpinnerStyle="ThreeBounce"
+        app:SpinnerColor="@color/colorAccent"
         app:progressbar_height="2dp"
         tools:ignore="MissingConstraints" />
 

@@ -5,7 +5,7 @@
     <declare-styleable name="URLVideo">
        <attr name="progressbar_height" format="dimension"/>
 
-        <attr name="Spinner_Style" >
+        <attr name="SpinnerStyle" >
             <enum name="RotatingPlane" value="0" />
             <enum name="DoubleBounce" value="1" />
             <enum name="Wave" value="2" />
@@ -23,7 +23,7 @@
             <enum name="MultiplePulseRing" value="14" />
         </attr>
 
-        <attr name="Spinner_Color" format="color" />
+        <attr name="SpinnerColor" format="color" />
 
 
     </declare-styleable>
