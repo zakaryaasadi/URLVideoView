@@ -18,7 +18,7 @@ A powerful video downloading and caching library with spinner and refresh button
  - build.gradle (Module.app)
  ``` gradle
 dependencies {
-    implementation 'com.github.zakaryaasadi:URLVideoView:0.0.4'
+    implementation 'com.github.zakaryaasadi:URLVideoView:0.0.7'
  }
  ```
 ## Permission
