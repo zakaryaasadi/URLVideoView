@@ -206,8 +206,12 @@ public class URLVideoView extends RelativeLayout {
         mVideoCore.resume();
     }
 
-    public boolean isPause() {
-        return mVideoCore.isPause();
+    public void stop(){
+        mVideoCore.stop();
+    }
+
+    public boolean isPlaying() {
+        return mVideoCore.isPlaying();
     }
 
     public void setThumbnail(String url){

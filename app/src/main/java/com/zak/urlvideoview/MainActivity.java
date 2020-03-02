@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onStop() {
-        if(!videoView.isPause()){
+        if(videoView.isPlaying()){
             videoView.pause();
         }
         super.onStop();
@@ -52,9 +52,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onRestart() {
-        if(videoView != null){
-            videoView.resume();
-        }
+        videoView.resume();
         super.onRestart();
     }
 }

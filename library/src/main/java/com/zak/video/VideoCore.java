@@ -167,29 +167,26 @@ public class VideoCore implements OnCompletionListener, OnPreparedListener, OnEr
     public void stop(){
         dismissProgressSpinner();
         mVideoView.stopPlayback();
-        mTimer.stop();
+        if(mTimer != null)
+            mTimer.stop();
     }
 
     public void pause(){
         dismissProgressSpinner();
         mVideoView.pause();
-        mTimer.pause();
+        if(mTimer != null)
+            mTimer.pause();
     }
 
-    public void resume(){
+    public void resume() {
         dismissProgressSpinner();
         mVideoView.start();
-        mTimer.resume();
-    }
-
-    public boolean isPause() {
-        if(mTimer != null)
-            return mTimer.isPause();
-        return true;
+        if (mTimer != null)
+            mTimer.resume();
     }
 
     public boolean isPlaying(){
-        return mTimer.isStart();
+        return mVideoView.isPlaying();
     }
 
 
